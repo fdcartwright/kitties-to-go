@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: rgb(16, 163, 196);
+}
+
+header section{
+    padding: 3% 14% 3% 14%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header section h1 {
+    font-size: 45px;
+    line-height: 0;
+    padding-bottom: 2%;
+}
+
+header section h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 3px;
+}
+
+nav {
+    background-color: rgb(242, 240, 240);
+    padding: 2% 0 2% 14%;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 1%;
+    color: rgb(55, 54, 54);
+    font-size: 13px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-bottom: 5%;
+    padding: 3% 14% 3% 14%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.section-main {
+    float: left;
+    width: 70%;
+    padding-right: 4%;
+}
+
+.section-aside {
+    float: right;
+    width: 30%;
+    padding-left: 4%;
+    padding-bottom: 10%;
+}
+
+footer {
+    clear: both;
+    padding-top: 5%;
+    height: 20%;
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
