@@ -204,10 +204,10 @@ footer div h4 {
     padding: 8% 0 8% 0;
     width: 100vw;
     height: 150px;
-    background-image: url("/images/lesson04-mock2-banner-image.jpeg");
+    background-image: url("images/lesson04-mock2-banner-image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .book-footer {
-    background-image: url("/images/lesson04-mock4-footer-image.jpeg");
+    background-image: url("images/lesson04-mock4-footer-image.jpeg");
 }
