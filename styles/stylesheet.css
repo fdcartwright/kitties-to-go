@@ -34,7 +34,7 @@ header section h3 {
 
 .header-nav {
     background-color: rgb(235, 235, 235);
-    padding: 2% 0 2% 14%;
+    padding: 3% 0 3% 14%;
 
 }
 
@@ -44,9 +44,9 @@ header section h3 {
 
 .header-nav a {
     text-decoration: none;
-    margin: 1%;
+    margin: 2%;
     color: rgb(72, 72, 72);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -210,4 +210,15 @@ footer div h4 {
 }
 .book-footer {
     background-image: url("images/lesson04-mock4-footer-image.jpeg");
+}
+
+.sr-only {
+	position: absolute;
+	Left: -10000px;
+	top: auto;
+	Overflow: hidden;
+}
+
+.sr-only:focus {
+    left: 0;
 }
